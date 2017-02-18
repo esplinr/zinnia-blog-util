@@ -38,7 +38,7 @@ This script is licensed under 3-clause BSD license
 # Commit the Django object into the new DB
 
 # TODO
-# The comment count is off by one (it's one too many)
+# The comment count is off by one (it's one too many), but is correct there is a pingback
 # Instead of manually mapping the old_db fields to fields in the model of the
 # new site, you could extract the keys and send them as kwargs to the new
 # model.
